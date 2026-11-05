@@ -1,0 +1,7 @@
+#macOs
+.DS_Store
+
+*.dSYM/
+*.exe
+
+.vscode/
