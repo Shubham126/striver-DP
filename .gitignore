@@ -2,6 +2,15 @@
 .DS_Store
 
 *.dSYM/
-*.exe
 
 .vscode/
+
+# Ignore all files without an extension (common for Mac/Linux executables)
+*
+!*.*
+!*/
+
+# Ignore specific executable extensions
+*.exe
+*.out
+*.app
